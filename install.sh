@@ -38,7 +38,7 @@ BINDIR="/usr/local/bin"
 ### --------------------------
 ### 🚧 Préparation
 ### --------------------------
-aficher_etape 1 6 "Préparation de l'environnement"
+afficher_etape 1 6 "Préparation de l'environnement"
 echo "📁 Création du dossier $INSTALL_DIR..."
 mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR"
